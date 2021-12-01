@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <title>크러쉬 서버</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <a href="index.html">CRUSH</a>
+    </div>
+        <input type="checkbox" id="menuicon">
+    <ul>
+        <li>
+            <label for="menuicon">
+                <span></span><span></span><span></span>
+            </label>
+        </li>
+    </ul>
+    <div class="sidebar">
+        <ul style="list-style: none;">
+            <li>
+                <br><br><a style="font-size: 3vh; margin: 0;">Community</a>
+            </li>
+            <li>
+                <a href="index.html"><span>Home</span></a>
+            </li>
+            <li>
+                <a href="https://band.us/band/74111465" target="_blank"><span>Band</span></a>
+            </li>
+            <li>
+                <a href="https://discord.com/invite/CrushServer" target="_blank"><span>Discord</span></a>
+            </li>
+            <li>
+                <a href="search.html"><span>User Search</span></a>
+            </li>
+	    </ul>
+        <ul style="list-style: none;">
+            <li>
+                <br><a style="font-size: 3vh;">Server List</a>
+            </li>
+            <li>
+                <a onclick="warn_ning()"><span>Crush Server</span></a>
+            </li>
+            <li>
+                <a href="minecraft://?addExternalServer=크러쉬 신전서버|crush24.kro.kr:19132"><span>PVP Server</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="title"><a style="font-size: 7vh;">Welcome to</a><br><a style="font-size: 8vh;">Crush Server</a></div>
+    </div>
+    <div class="middle">
+        <div class="sub-title">
+            <h1 style="font-size: 4vh;">Minecraft BE 한국 최대 규모</h1>
+            <a style="font-size: 3vh;">한국에서 운영되는 BE서버 중 최대 규모를 자랑합니다.</a>
+        </div>
+        <div class="sub-list">
+            <div class="box">
+                <img src="image/playericon.png" width="80vh" height="80vh"><br>
+                <span style="font-size: 2vh;">최대 동시 접속</span>
+                <div class="pl" data-rate="498" style="font-size: 7vh; font: bold;">0</div>
+                <span style="font-size: 3vh;">명</span>
+            </div>
+            <div class="box">
+                <img src="image/bandicon.png" width="80vh" height="80vh"><br>
+                <span style="font-size: 2vh;">네이버 밴드</span>
+                <div class="ban" data-rate="6406" style="font-size: 7vh; font: bold;">0</div>
+                <span style="font-size: 3vh;">명</span>
+            </div>
+            <div class="box">
+                <img src="image/discordicon.png" width="80vh" height="80vh"><br>
+                <span style="font-size: 2vh;">디스코드</span>
+                <div class="dis" data-rate="1264" style="font-size: 7vh; font: bold;">0</div>
+                <span style="font-size: 3vh;">명</span>
+            </div>
+            <br>
+            *2021-11-30 기준
+        </div>
+    </div>
+    <div class="end">
+        <div class="sub-title">
+            <h1 style="font-size: 4vh;">어서! 참여하세요!</h1>
+            <a style="font-size: 2.5vh;">크러쉬 서버에서 다양한 만남과 정보들을 확인하세요!</a>
+        </div>
+        <div class="sub-list">
+            <a class="endbox" href="https://band.us/band/74111465" target="_blank">
+                <img src="image/bandicon.png" width="150vh" height="150vh"><br>
+                밴드에 가입하여<br>최신 소식들을 접해보세요!
+            </a>
+            <a class="endbox" href="https://discord.com/invite/CrushServer" target="_blank">
+                <img src="image/discordicon.png" width="150vh" height="150vh"><br>
+                다양한 참가자들과<br>이야기를 나눠보세요!
+            </a>
+            <a class="endbox" onclick="warn_ning()">
+                <img src="image/mainservericon.jpg" width="150vh" height="150vh"><br>
+                메인서버에 접속하세요!<br>클릭시 자동으로 추가됩니다.
+            </a>
+            <a class="endbox"href="minecraft://?addExternalServer=크러쉬 신전서버|crush24.kro.kr:19132">
+                <img src="image/pvpicon.png" width="150vh" height="150vh"><br>
+                신전서버에 접속하세요!<br>클릭시 자동으로 추가됩니다.
+            </a>
+        </div>
+    </div>
+    <div class="footer">
+        @Crush Server<br>
+        made by HelloEZEZ
+    </div>
+</body>
+</html>

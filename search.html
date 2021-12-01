@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>크러쉬 서버</title>
+
+    <script src="js/main.js"></script>
+    <link href="style2.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="head">
+        <a href="index.html">CRUSH</a>
+    </div>
+        <input type="checkbox" id="menuicon">
+    <ul>
+        <li>
+            <label for="menuicon">
+                <span></span><span></span><span></span>
+            </label>
+        </li>
+    </ul>
+    <div class="sidebar">
+        <ul style="list-style: none;">
+            <li>
+                <br><br><a style="font-size: 3vh; margin: 0;">Community</a>
+            </li>
+            <li>
+                <a href="index.html"><span>Home</span></a>
+            </li>
+            <li>
+                <a href="https://band.us/band/74111465" target="_blank"><span>Band</span></a>
+            </li>
+            <li>
+                <a href="https://discord.com/invite/CrushServer" target="_blank"><span>Discord</span></a>
+            </li>
+            <li>
+                <a href="search.html"><span>User Search</span></a>
+            </li>
+	    </ul>
+        <ul style="list-style: none;">
+            <li>
+                <br><a style="font-size: 3vh;">Server List</a>
+            </li>
+            <li>
+                <a onclick="warn_ning()"><span>Crush Server</span></a>
+            </li>
+            <li>
+                <a href="minecraft://?addExternalServer=크러쉬 신전서버|crush24.kro.kr:19132"><span>PVP Server</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="search">
+            <button class="logos" onclick="user_search()">
+                <img src="image/searchlogo.png" class="logo">
+            </button>
+            <input name="Userlist" placeholder="User Name" class="searchbar" maxlength="64">
+        </div>
+    </div>
+</body>
+</html>
