@@ -1,4 +1,4 @@
-$(function(){
+
     var ex = false;
     $(window).scroll(function(){
         var sub = $('.main').offset().top + 600;
@@ -36,7 +36,6 @@ $(function(){
             }
         }
     });
-});
 
 function warn_ning(){
     alert("오픈 준비중입니다.");
